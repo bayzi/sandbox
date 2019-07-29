@@ -1,0 +1,20 @@
+- hosts: localhost
+  connection: local
+  vars_files:
+    - defaults/main.yml
+  roles:
+    - role: git_role
+      vars:
+        - role_user: "{{ sys_user }}"
+        - git_user_email: "{{ email }}"
+    - role: kubectl_role
+      vars:
+        - role_user: "{{ sys_user }}"
+    - role: docker_role
+      vars:
+        - role_user: "{{ sys_user }}"
+    - role: java_role
+    - role: maven_role
+    - role: nodejs_role
+      vars:
+        - nodejs_install_npm_user: "{{ sys_user }}"

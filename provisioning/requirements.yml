@@ -1,0 +1,23 @@
+- src: https://github.com/bayzi/git_role
+  version: master
+  name: git_role
+
+- src: https://github.com/bayzi/java_role
+  version: master
+  name: java_role
+
+- src: https://github.com/bayzi/maven_role
+  version: master
+  name: maven_role
+
+- src: https://github.com/bayzi/docker_role
+  version: master
+  name: docker_role
+
+- src: https://github.com/bayzi/kubectl_role
+  version: master
+  name: kubectl_role
+
+- src: https://github.com/bayzi/nodejs_role
+  version: master
+  name: nodejs_role

@@ -1,0 +1,5 @@
+# Default variables to execute the playbook with associated roles
+
+sys_user: 'vagrant'
+sys_group: 'vagrant'
+email: ''
